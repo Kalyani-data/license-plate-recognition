@@ -1,4 +1,4 @@
-"""
+
 # License Plate Recognition (LPR) Project
 
 ## Project Overview
@@ -14,21 +14,24 @@ The system is trained on a custom dataset where bounding boxes were provided in 
 
 ## Folder Structure
 
+```text
 .
 ├── data/                                    # Contains datasets for detection and recognition
 │   ├── license_plate_detection_train/       # Vehicle images for detection
-│   ├── license_plate_recognition_train/    # Cropped license plate images with text labels
+│   ├── license_plate_recognition_train/     # Cropped license plate images with text labels
 │   ├── test/                                # Images for evaluation/testing
 │   ├── Licplatesdetection_train.csv         # Detection annotations with bounding box info
 │   └── Licpatesrecoginition_train.csv       # Recognition dataset with plate text labels
 ├── output/                                  # Example output images
-│   └── image1.png                            # Detection + recognition example
+│   └── image1.png                           # Detection + recognition example
 ├── License_Plate_recongintion.ipynb         # Jupyter Notebook with full implementation
 ├── requirements.txt                         # Python dependencies
-├── .gitignore                               
-└── README.md                                # Project description (this file)
+├── .gitignore
+└── README.md                              
 
+```
 ---
+
 
 ## Dataset
 
