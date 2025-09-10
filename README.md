@@ -17,14 +17,14 @@ The system is trained on a custom dataset where bounding boxes were provided in 
 ```text
 .
 ├── data/                                    # Contains datasets for detection and recognition
-│   ├── license_plate_detection_train/       # Vehicle images for detection
-│   ├── license_plate_recognition_train/     # Cropped license plate images with text labels
+│   ├── license_plates_detection_train/       # Vehicle images for detection
+│   ├── license_plates_recognition_train/     # Cropped license plate images with text labels
 │   ├── test/                                # Images for evaluation/testing
 │   ├── Licplatesdetection_train.csv         # Detection annotations with bounding box info
-│   └── Licpatesrecoginition_train.csv       # Recognition dataset with plate text labels
+│   └── Licplatesrecoginition_train.csv       # Recognition dataset with plate text labels
 ├── output/                                  # Example output images
 │   └── image1.png                           # Detection + recognition example
-├── License_Plate_recongintion.ipynb         # Jupyter Notebook with full implementation
+├── License_Plate_Recongintion.ipynb         # Jupyter Notebook with full implementation
 ├── requirements.txt                         # Python dependencies
 ├── .gitignore
 └── README.md                              
@@ -117,7 +117,7 @@ pip install -r requirements.txt
 
 ## How to Run
 
-1. Open `License_Plate_recongintion.ipynb`.
+1. Open `License_Plate_Recongintion.ipynb`.
 2. Execute the notebook cells sequentially to:
    - Map bounding boxes from CSV files
    - Train the YOLOv5 detection model
