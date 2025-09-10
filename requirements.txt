@@ -1,0 +1,9 @@
+pandas
+matplotlib
+opencv-python
+Pillow
+seaborn
+torch
+scikit-learn
+PyYAML
+ipython
